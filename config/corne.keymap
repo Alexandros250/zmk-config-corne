@@ -24,7 +24,7 @@
             bindings = <
 &kp TAB    &kp Q  &kp W  &kp E         &kp R         &kp ESCAPE       &kp Y       &kp U  &kp I            &rgb_ug RGB_TOG  &bl BL_INC  &kp BSPC
 &kp LCTRL  &kp A  &kp S  &kp D         &kp F         &kp BACKSPACE    &kp H       &kp J  &kp K            &bootloader      &bl BL_DEC  &bl BL_CYCLE
-&kp LSHFT  &kp Z  &kp X  &kp C         &kp V         &kp B            &kp N       &kp M  &rgb_ug RGB_EFF  &sys_reset       &bt BT_CLR  &kp ESC
+&kp LSHFT  &kp Z  &kp X  &kp C         &kp V         &bl BL_ON        &kp N       &kp M  &rgb_ug RGB_EFF  &sys_reset       &bt BT_CLR  &kp ESC
                          &kp NUMBER_2  &kp NUMBER_1  &kp SPACE        &bl BL_TOG  &mo 1  &bt BT_CLR_ALL
             >;
         };
